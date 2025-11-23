@@ -1,4 +1,6 @@
-# tkinter-stats-error-calculator
+# This project is a simple, standalone desktop application built using Python's Tkinter library. Its primary purpose is to help users quickly perform fundamental statistical analysis (Mean, Variance, Standard Deviation) on a set of measured data points and calculate measurement errors (Absolute, Relative, Percentage) if a known true value is provided.
+
+The application uses a Regular Expression (re) to robustly extract all numerical values from a free-form input string, making it flexible for various data entry styles.
 
 import tkinter as tk
 from tkinter import messagebox
